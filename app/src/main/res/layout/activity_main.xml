@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_date_picker"
+        android:layout_gravity="center"
+        android:textColor="#3F51B5"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_pick_date_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:layout_marginTop="70dp"
+        android:text="@string/pick_date" />
+
+    <TextView
+        android:id="@+id/tv_output_date_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FF5722"
+        android:layout_margin="10dp"
+        android:text="@string/output_date"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/btn_pick_time_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:text="@string/pick_time" />
+
+    <TextView
+        android:id="@+id/tv_output_time_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF5722"
+        android:text="@string/output_time"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="30sp" />
+
+</LinearLayout>

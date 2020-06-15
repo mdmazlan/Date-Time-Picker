@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Date Time Picker</string>
+    <string name="time_date_picker">Time Date Picker</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="output_date">Output Date</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="output_time">Output Time</string>
+</resources>
